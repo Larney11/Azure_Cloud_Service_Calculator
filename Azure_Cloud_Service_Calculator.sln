@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_Cloud_Service_Calculator", "Azure_Cloud_Service_Calculator\Azure_Cloud_Service_Calculator.csproj", "{53A06183-900A-4150-9787-6013C52DD9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azure_Cloud_Service_Calculator.Tests", "Azure_Cloud_Service_Calculator.Tests\Azure_Cloud_Service_Calculator.Tests.csproj", "{7E69F377-0203-49C7-9097-272B88EE9D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53A06183-900A-4150-9787-6013C52DD9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A06183-900A-4150-9787-6013C52DD9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A06183-900A-4150-9787-6013C52DD9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A06183-900A-4150-9787-6013C52DD9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E69F377-0203-49C7-9097-272B88EE9D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E69F377-0203-49C7-9097-272B88EE9D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E69F377-0203-49C7-9097-272B88EE9D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E69F377-0203-49C7-9097-272B88EE9D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
