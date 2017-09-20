@@ -1,0 +1,15 @@
+﻿@model Azure_Cloud_Service_Calculator.Models.AzureServiceCalculator
+
+@{
+    ViewBag.Title = "Yearly Cost";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<fieldset>
+    <legend></legend>
+    <div class="display-label">No of Instances: @Html.DisplayFor(model => model.NoOfInstances)</div>
+    <div class="display-label">Instance Size: @Html.DisplayFor(model => model.InstanceSize)</div>
+    <div class="display-label">Cost: $  @Html.DisplayFor(model => model.Cost) </div>
+</fieldset>
+

@@ -16,7 +16,7 @@ namespace Azure_Cloud_Service_Calculator
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "AzureServiceCalculator", action = "Calculate", id = UrlParameter.Optional }
             );
         }
     }
